@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: sidulu01/flm-oct:javaapp
+    image: saidulu01/flm-oct:javaapp
     ports:
       - "1111:8080"
     deploy:
